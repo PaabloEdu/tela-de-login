@@ -1,0 +1,93 @@
+html,body{
+    background-image:url(./6804352_27085.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    }
+
+
+
+.content{
+    width: 500px;
+    min-height: 560px;    
+    margin: 0px auto;
+    position: relative;
+    /*border: 1px solid red;*/
+    }
+
+    h1 {
+        font-size: 30px;
+        padding: 2px 0 10px 0;
+        font-family: Arial,sans-serif;
+        font-weight: bold;
+        padding-bottom: 30px;
+    }
+    
+    .login {
+        position: absolute;
+        width: 88%;   
+        padding: 18px 6% 60px 6%;
+        margin: 0 0 35px 0;
+        top: 180px;
+        background: #011a0b;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+         color: aliceblue;
+        -webkit-box-shadow: 5px;
+        border-radius: 5px;
+
+        
+    }
+    
+    .content p:first-child{
+        margin: 0px;
+    }
+    
+    p{
+        margin-bottom:15px;
+    }
+    
+    label{
+        color: #7f7c7c;
+        position: relative;
+    }
+    
+    ::-webkit-input-placeholder  {
+        color: #bebcbc; 
+        font-style: italic;
+    }
+    
+    input {
+        outline: none;
+        
+    }
+
+    .btn {
+        color: black;
+        font-size: 15px;
+        width: 70px;
+        height: 30px;
+
+    }
+
+    .btn:hover {
+         background: #7f7c7c;
+    }
+    
+    input:not([type="checkbox"],[type="submit"]){
+        width: 95%;
+        margin-top: 4px;
+        padding: 10px;    
+        border: 1px solid #b2b2b2;
+       
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+       
+        -webkit-box-shadow: 0px 1px 4px 0px rgba(255, 255, 255, 0.6) inset;
+        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+       
+        -webkit-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+    }
+
+   
